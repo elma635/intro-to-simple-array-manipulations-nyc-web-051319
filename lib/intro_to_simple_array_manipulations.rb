@@ -76,5 +76,5 @@ end
 
 
 def using_delete_at(deleted_robot, number)
-famous_robots.delete_at()
+deleted_robot.delete_at(number)
 end
