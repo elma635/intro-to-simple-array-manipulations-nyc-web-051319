@@ -38,7 +38,7 @@ def using_shift(my_favorite_cities)
 end
 
 def shift_with_args(brands_removed)
-brands_removed.shift(2)
+    brands_removed.shift(2)
 
  #brands_removed = arg in .shift
 #returns what it removes
@@ -47,7 +47,7 @@ end
 
 def using_concat(more_favs, all_my_favs)
 
-  all_my_favs = more_favs.concat(my_favorite_things)
+more_favs.concat(all_my_favs)
 end
 
 
