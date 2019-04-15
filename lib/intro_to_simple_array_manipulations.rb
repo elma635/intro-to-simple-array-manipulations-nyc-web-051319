@@ -71,14 +71,11 @@ end
 
 
 def using_delete(updated_array, no_offense_steven)
-no_offense_steven = "Steven"
-
-no_offense_steven = instructors.delete
+ instructors.delete
 end
 
 
 def using_delete_at(deleted_robot, famous_robots)
-
 
 deleted_robot = famous_robots.delete_at(2)
 end
