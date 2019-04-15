@@ -67,13 +67,13 @@ def using_flatten(private_colleges_in_newyork)
 end
 
 
-#def using_delete(updated_array,no_offense_steven)
-#instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+def using_delete(updated_array,no_offense_steven)
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 
-#no_offense_steven = "Steven"
+no_offense_steven = "Steven"
 
-#no_offense_steven = using_delete(instructors, "Steven")
-#end
+no_offense_steven = using_delete(instructors, "Steven")
+end
 
 
 def using_delete_at(deleted_robot, famous_robots)
