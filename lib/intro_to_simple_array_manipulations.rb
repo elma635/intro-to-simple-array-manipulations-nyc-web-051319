@@ -35,13 +35,12 @@ end
 
 def shift_with_args(my_favorite_cities)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = my_favorite_cities.shift
+  im_so_over_this_city = my_favorite_cities
 
 end
 
 
 def using_concat(more_favs,all_my_favs)
-  my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   more_favs = ["mario kart", "flatiron school"]
   all_my_favs = my_favorite_things.concat(more_favs)
 end
