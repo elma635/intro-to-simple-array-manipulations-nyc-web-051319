@@ -81,4 +81,3 @@ famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
 
 deleted_robot = famous_robots.delete_at(2)
 end
- 
