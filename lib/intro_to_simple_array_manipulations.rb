@@ -27,8 +27,7 @@ end
 
 
 def pop_with_args (chars_arya_killed)
-    chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-chars_arya_killed = chars_arya_killed.pop(2)
+     chars_arya_killed.pop(2)
 end
 
 
@@ -59,7 +58,6 @@ end
 
 
 def using_uniq(new_array)
-  #captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
   new_array.uniq
 end
 
