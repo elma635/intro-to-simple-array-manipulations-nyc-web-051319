@@ -35,7 +35,7 @@ end
 
 def shift_with_args(my_favorite_cities)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = using_shift(my_favorite_cities)
+  im_so_over_this_city = my_favorite_cities.shift
 
 end
 
@@ -66,7 +66,7 @@ def using_flatten(private_colleges_in_newyork)
 end
 
 
-def using_delete(updated_array,no_offense_steven)
+def using_delete(updated_array, no_offense_steven,)
 instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 
 no_offense_steven = "Steven"
