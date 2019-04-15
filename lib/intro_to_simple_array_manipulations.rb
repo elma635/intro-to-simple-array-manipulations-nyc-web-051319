@@ -75,7 +75,6 @@ updated_array.delete(no_offense_steven)
 end
 
 
-def using_delete_at(deleted_robot, famous_robots)
-
-deleted_robot = famous_robots.delete_at(2)
+def using_delete_at(deleted_robot, number)
+famous_robots.delete_at()
 end
