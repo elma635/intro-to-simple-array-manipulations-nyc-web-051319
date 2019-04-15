@@ -39,7 +39,7 @@ def using_shift(my_favorite_cities)
 
 end
 
-def using_shift_args
+def using_shift_args(brands_removed)
 
 brands_removed = ice_cream_brands.shift
 
