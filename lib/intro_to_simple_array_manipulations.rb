@@ -38,8 +38,8 @@ def using_shift(my_favorite_cities)
 end
 
 def shift_with_args(brands_removed)
-ice_cream_brands = brands_removed.shift(2)
-return ice_cream_brands
+brands_removed.shift(2)
+
  #brands_removed = arg in .shift
 #returns what it removes
 
