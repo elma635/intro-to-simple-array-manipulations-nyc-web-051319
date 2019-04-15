@@ -40,6 +40,7 @@ end
 def using_shift_args(brands_removed)
 
 brands_removed = ice_cream_brands.shift_with_args(2)
+#returns what it removes 
 
 end
 
