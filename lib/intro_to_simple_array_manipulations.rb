@@ -71,7 +71,7 @@ end
 
 
 def using_delete(updated_array, no_offense_steven)
- instructors.delete
+instructors.delete
 end
 
 
