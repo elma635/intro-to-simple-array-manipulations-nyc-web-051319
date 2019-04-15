@@ -33,9 +33,9 @@ chars_arya_killed = chars_in_game_of_thrones.pop(2)
 end
 
 
-def shift_with_args(my_favorite_cities)
+def using_shift(my_favorite_cities)
   my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-  im_so_over_this_city = my_favorite_cities
+  im_so_over_this_city = my_favorite_cities.shift
 
 end
 
@@ -71,7 +71,7 @@ no_offense_steven = "Steven"
 
 no_offense_steven = instructors.delete
 end
-end
+
 
 def using_delete_at(deleted_robot, famous_robots)
 famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
