@@ -46,7 +46,6 @@ def shift_with_args(brands_removed)
 end
 
 def using_concat(more_favs, all_my_favs)
-
 more_favs.concat(all_my_favs)
 end
 
