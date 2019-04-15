@@ -59,8 +59,8 @@ end
 
 
 def using_uniq(new_array)
-  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-  new_array = captain_planet_and_the_planeteers.uniq
+  #captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
+  captain_planet_and_the_planeteers.uniq
 end
 
 
@@ -78,3 +78,5 @@ end
 def using_delete_at(deleted_robot, number)
 deleted_robot.delete_at(number)
 end
+
+#take what it is, array and number in that case
