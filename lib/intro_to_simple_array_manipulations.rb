@@ -47,13 +47,14 @@ end
 
 def using_concat(more_favs, all_my_favs)
 more_favs.concat(all_my_favs)
-#return would give a concat statement 
+#return would give a concat statement
 end
 
 
 def using_insert(list_of_esoteric_programming_languages, another_esoteric_language)
 
-  new_array = list_of_esoteric_programming_languages.insert(another_esoteric_language)
+list_of_esoteric_programming_languages.insert(another_esoteric_language)
+#one element inside of the array
 end
 
 
