@@ -41,7 +41,7 @@ end
 
 def using_shift_args(brands_removed)
 
-brands_removed = ice_cream_brands.shift
+brands_removed = ice_cream_brands.shift(2)
 
 end
 
